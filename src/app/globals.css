@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2D2D7F;
+  --color-primary-light: #4A4AA0;
+  --color-primary-dark: #1E1E5A;
+  --color-primary-900: #1a1a5e;
+  --color-primary-950: #141442;
+  --color-accent: #E8E8F5;
+  --color-accent-warm: #F0EDE8;
+  --color-accent-navy: #E8EAF6;
+  --color-accent-navy-dark: #C5CAE9;
+  --color-surface: #F8F8FA;
+  --color-surface-warm: #FAFAF8;
+  --color-border: #E5E7EB;
+  --color-border-light: #F0F0F4;
+  --color-success: #10B981;
+  --color-error: #EF4444;
+
+  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+  --radius-full: 9999px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #1a1a2e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+/* Smooth page transitions */
+main {
+  animation: pageIn 0.4s ease-out;
+}
+
+@keyframes pageIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
