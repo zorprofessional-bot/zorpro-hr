@@ -22,7 +22,7 @@ export function FacilityShowcase() {
           <AnimatedSection className="lg:col-span-6">
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden border border-white/10">
               <Image
-                src="/images/hero.png"
+                src="/images/factory-line.png"
                 alt="ZOR Converting Facility"
                 fill
                 className="object-cover"

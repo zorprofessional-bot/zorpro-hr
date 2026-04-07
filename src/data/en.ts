@@ -2,7 +2,7 @@ export const en = {
   nav: {
     about: 'About',
     products: 'Products',
-    privateLabel: 'Private Label',
+    solutions: 'Solutions',
     contact: 'Contact',
     cta: 'Request a Quote',
     megaMenu: {
@@ -41,29 +41,29 @@ export const en = {
         },
         viewAll: 'View All Products',
       },
-      privateLabel: {
-        title: 'Private Label',
-        overview: { label: 'Overview', description: 'Why choose ZOR for private label' },
-        process: { label: 'Our Process', description: 'From brief to delivery' },
-        packaging: { label: 'Custom Packaging', description: 'Full branding control' },
-        caseStudies: { label: 'Case Studies', description: 'Success stories from partners' },
+      solutions: {
+        title: 'Solutions',
+        byEnvironment: { label: 'By Environment', description: 'Complete hygiene setups for every space' },
+        dispensing: { label: 'Dispensing Systems', description: 'Dispensers paired with the right content' },
+        industries: { label: 'Industries We Serve', description: 'Hotels, hospitals, offices, restaurants & more' },
+        forHome: { label: 'For Home & Family', description: 'Professional quality for everyday life' },
       },
     },
   },
   hero: {
-    tagline: 'Professional Hygiene Solutions',
-    title: 'Elevating Standards in Professional Hygiene',
-    subtitle: 'From converting excellence to trusted product lines — ZOR delivers quality paper products for businesses across Europe.',
+    tagline: 'Hygiene Solutions for Everyone',
+    title: 'Elevating Hygiene Standards — For Business and Home',
+    subtitle: 'From our production facility to your business or home — ZOR delivers quality hygiene products trusted by families and companies across Europe.',
     cta: 'Explore Products',
     ctaSecondary: 'Get in Touch',
     formTitle: 'Tell Us What You Need',
     formName: 'Your Name',
-    formEmail: 'Business Email',
+    formEmail: 'Email Address',
     formCompany: 'Company',
     formInterest: "I'm interested in...",
     formInterestOptions: {
       products: 'Product Supply',
-      privateLabel: 'Private Label',
+      solutions: 'Complete Solutions',
       partnership: 'Partnership',
       other: 'Other',
     },
@@ -88,12 +88,12 @@ export const en = {
     countries: { value: '15+', label: 'European Markets' },
     products: { value: '30+', label: 'Product Variants' },
     capacity: { value: '500+', label: 'Tons / Month' },
-    clients: { value: '200+', label: 'Active Partners' },
+    clients: { value: '200+', label: 'Happy Customers' },
   },
   about: {
     sectionTag: 'Who We Are',
     title: 'Built on Converting Expertise, Driven by Partnership',
-    description: 'ZOR is a Croatian company operating at the intersection of manufacturing capability and market understanding. Through ZOR Converting, we manage our own production facility — giving us direct control over quality, capacity, and innovation. Through ZOR Professional, we bring a curated range of hygiene products to businesses that demand consistency and reliability.',
+    description: 'ZOR is a Croatian company operating at the intersection of manufacturing capability and market understanding. Through ZOR Converting, we manage our own production facility — giving us direct control over quality, capacity, and innovation. Through ZOR Professional, we bring a curated range of hygiene products to businesses and households that demand consistency and reliability.',
     values: {
       quality: {
         title: 'Uncompromising Quality',
@@ -128,7 +128,7 @@ export const en = {
         'Modern converting lines for roll and folded products',
         'In-house quality laboratory and testing',
         'Flexible production scheduling',
-        'Capacity for private label and custom orders',
+        'Capacity for custom and large-volume orders',
         'Sustainable production practices',
         'ISO-compliant processes',
       ],
@@ -169,6 +169,14 @@ export const en = {
         title: 'Folded Products',
         description: 'Hand towels and napkins in multiple fold configurations for optimal dispensing.',
       },
+      dispensing: {
+        title: 'Dispensing Solutions',
+        description: 'Professional dispensers for paper, soap, and sanitizer — designed for reliability and ease of use.',
+      },
+      soap: {
+        title: 'Soap & Hygiene',
+        description: 'Liquid soaps, foam soaps, and sanitizer refills to complement our dispensing systems.',
+      },
     },
     items: {
       toiletPaper: {
@@ -201,45 +209,88 @@ export const en = {
         description: 'Classic V-fold hand towels offering reliable performance and excellent value for high-volume environments.',
         features: ['Reliable performance', 'High-volume use', 'Compact storage', 'Excellent value'],
       },
+      rollDispensers: {
+        name: 'Roll Dispensers',
+        description: 'Coming soon — professional roll dispensers for toilet paper and hand towels. Details after Interclean 2026.',
+        features: ['Professional grade', 'Multiple formats'],
+      },
+      towelDispensers: {
+        name: 'Towel Dispensers',
+        description: 'Coming soon — towel dispensers for Z-fold and V-fold paper towels. Details after Interclean 2026.',
+        features: ['Universal fit', 'Easy maintenance'],
+      },
+      soapDispensers: {
+        name: 'Soap & Sanitizer Dispensers',
+        description: 'Coming soon — wall-mounted dispensers for liquid soap, foam soap, and hand sanitizer. Details after Interclean 2026.',
+        features: ['Wall-mounted', 'Refillable systems'],
+      },
+      liquidSoap: {
+        name: 'Liquid Soap',
+        description: 'Coming soon — professional liquid hand soap refills for commercial and home use. Details after Interclean 2026.',
+        features: ['Gentle formula', 'Economical refills'],
+      },
+      foamSoap: {
+        name: 'Foam Soap',
+        description: 'Coming soon — foam soap refills offering premium hand washing experience. Details after Interclean 2026.',
+        features: ['Rich foam', 'Less water usage'],
+      },
+      sanitizer: {
+        name: 'Hand Sanitizer',
+        description: 'Coming soon — alcohol-based hand sanitizer refills for professional environments. Details after Interclean 2026.',
+        features: ['Quick drying', 'Effective formula'],
+      },
     },
     cta: 'Request Product Catalog',
     pageTitle: 'Our Products',
     pageSubtitle: 'A complete range of professional paper products, manufactured with precision in our own converting facility and delivered reliably across Europe.',
   },
-  privateLabel: {
-    sectionTag: 'Private Label',
-    title: 'Your Brand, Our Expertise',
-    subtitle: 'Leverage our converting capabilities to create your own branded line of professional hygiene products. Full customization, from product specification to packaging design.',
+  solutions: {
+    sectionTag: 'Complete Solutions',
+    title: 'The Right Solution for Every Space',
+    subtitle: 'Professional dispensers paired with premium paper and soap products — designed for hotels, hospitals, offices, restaurants, and your home.',
+    environments: {
+      hotel: {
+        title: 'Hotels & Hospitality',
+        description: 'Premium guest experience with elegant dispensers and soft, quality paper products.',
+      },
+      healthcare: {
+        title: 'Healthcare',
+        description: 'Hygienic, reliable systems that meet strict clinical standards for hospitals and clinics.',
+      },
+      office: {
+        title: 'Offices & Workplaces',
+        description: 'Clean, well-stocked washrooms that reflect professional standards.',
+      },
+      restaurant: {
+        title: 'Restaurants & Food Service',
+        description: 'Practical, hygienic solutions for busy kitchens and guest facilities.',
+      },
+    },
     benefits: {
-      custom: {
-        title: 'Custom Specifications',
-        description: 'Choose ply count, sheet size, embossing pattern, and paper quality. We manufacture to your exact specifications.',
+      matched: {
+        title: 'Perfectly Matched',
+        description: 'Every dispenser paired with the ideal paper or soap refill — no guesswork, no compatibility issues.',
       },
-      branding: {
-        title: 'Full Branding Control',
-        description: 'Custom packaging design, your logo, your colors. Create a product line that strengthens your brand identity.',
+      proven: {
+        title: 'Industry Trusted',
+        description: 'Backed by manufacturing expertise and trusted by businesses across 15+ European markets.',
       },
-      minimums: {
-        title: 'Flexible Minimums',
-        description: 'We work with partners of all sizes. Whether you need 10 pallets or 100, we find a production schedule that works.',
+      sustainable: {
+        title: 'Sustainable Choice',
+        description: 'Eco-conscious products and systems that reduce waste without compromising quality.',
       },
-      speed: {
-        title: 'Fast Turnaround',
-        description: 'From concept to delivery in weeks, not months. Our in-house production means no third-party delays.',
+      support: {
+        title: 'Ongoing Support',
+        description: 'A dedicated team that helps you choose, install, and maintain your hygiene systems.',
       },
     },
-    process: {
-      title: 'How It Works',
-      steps: [
-        { title: 'Brief', description: 'Share your product requirements, target market, and branding vision with our team.' },
-        { title: 'Develop', description: 'We create product samples and packaging proofs for your approval.' },
-        { title: 'Produce', description: 'Your products are manufactured under strict quality control in our facility.' },
-        { title: 'Deliver', description: 'Finished products are delivered to your warehouse, ready for distribution.' },
-      ],
+    cta: 'Find Your Solution',
+    pageTitle: 'Hygiene Solutions',
+    pageSubtitle: 'Complete hygiene systems that combine dispensers with the right content — designed for real-world environments where quality matters.',
+    forHome: {
+      title: 'Professional Quality at Home',
+      description: 'Why settle for less? The same quality trusted by hotels and hospitals is now available for your home. Soft, absorbent paper products and gentle soaps that your family will love.',
     },
-    cta: 'Start Your Private Label Project',
-    pageTitle: 'Private Label Solutions',
-    pageSubtitle: 'Build your own branded product line with the backing of our converting expertise and production facility.',
   },
   whyZor: {
     sectionTag: 'Why ZOR',
@@ -266,7 +317,7 @@ export const en = {
   contact: {
     sectionTag: 'Get in Touch',
     title: 'Let\'s Build Something Together',
-    subtitle: 'Whether you\'re looking for a reliable supplier, exploring private label options, or simply want to learn more — we\'re here to talk.',
+    subtitle: 'Whether you need products for your business, home, or a custom project — we\'re here to help.',
     form: {
       name: 'Full Name',
       email: 'Email Address',
@@ -279,7 +330,7 @@ export const en = {
       subjects: {
         general: 'General Inquiry',
         products: 'Product Information',
-        privateLabel: 'Private Label',
+        solutions: 'Solutions Inquiry',
         partnership: 'Partnership Opportunity',
         other: 'Other',
       },
@@ -295,7 +346,7 @@ export const en = {
     pageSubtitle: 'Ready to discuss your professional hygiene needs? Reach out and let\'s start a conversation.',
   },
   footer: {
-    description: 'Professional hygiene solutions for businesses across Europe. Quality paper products from our converting facility to your door.',
+    description: 'Hygiene solutions for businesses and families across Europe. Quality products from our facility to your door.',
     quickLinks: 'Quick Links',
     products: 'Products',
     legal: 'Legal',
@@ -307,7 +358,7 @@ export const en = {
   },
   cta: {
     title: 'Ready to Elevate Your Hygiene Standards?',
-    subtitle: 'Join 200+ businesses across Europe who trust ZOR for their professional hygiene needs.',
+    subtitle: 'Join businesses and families across Europe who trust ZOR for quality hygiene products.',
     button: 'Request a Quote',
   },
 }

@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     default: 'ZOR — Professional Hygiene Solutions',
     template: '%s | ZOR',
   },
-  description: 'Professional hygiene solutions for businesses across Europe. Quality paper products manufactured in our own converting facility — toilet paper, hand towels, and private label solutions.',
-  keywords: ['professional hygiene', 'paper products', 'toilet paper', 'hand towels', 'private label', 'tissue converting', 'B2B hygiene', 'Croatia', 'Europe'],
+  description: 'Hygiene solutions for businesses and families across Europe. Quality paper products, dispensers, and soaps manufactured in our own converting facility.',
+  keywords: ['hygiene solutions', 'paper products', 'toilet paper', 'hand towels', 'dispensers', 'soap dispensers', 'home hygiene', 'tissue converting', 'Croatia', 'Europe'],
   authors: [{ name: 'ZOR' }],
   creator: 'ZOR',
   openGraph: {

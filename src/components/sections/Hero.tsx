@@ -11,9 +11,9 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0">
+      <div className="fixed inset-0 -z-10">
         <Image
-          src="/images/hero.png"
+          src="/images/factory-line.png"
           alt=""
           fill
           className="object-cover"
@@ -24,7 +24,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative mx-auto max-w-7xl px-6 lg:px-8 py-28 lg:py-0 lg:min-h-screen lg:flex lg:items-center">
+      <div className="relative mx-auto max-w-7xl px-6 lg:px-8 py-28 lg:py-0 lg:min-h-[85vh] lg:flex lg:items-center">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center w-full">
           {/* Text Side */}
           <div className="lg:col-span-7">

@@ -35,8 +35,8 @@ export function AboutPreview() {
           <AnimatedSection delay={0.2} className="lg:col-span-7">
             <div className="relative aspect-[16/10] rounded-xl overflow-hidden">
               <Image
-                src="/images/hero.png"
-                alt="ZOR Manufacturing"
+                src="/images/warehouse-zorpro.png"
+                alt="ZOR Professional warehouse"
                 fill
                 className="object-cover"
               />

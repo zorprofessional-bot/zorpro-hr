@@ -2,7 +2,7 @@ export const hr = {
   nav: {
     about: 'O nama',
     products: 'Proizvodi',
-    privateLabel: 'Private Label',
+    solutions: 'Rješenja',
     contact: 'Kontakt',
     cta: 'Zatražite ponudu',
     megaMenu: {
@@ -41,29 +41,29 @@ export const hr = {
         },
         viewAll: 'Svi proizvodi',
       },
-      privateLabel: {
-        title: 'Private Label',
-        overview: { label: 'Pregled', description: 'Zašto odabrati ZOR za private label' },
-        process: { label: 'Naš proces', description: 'Od briefa do isporuke' },
-        packaging: { label: 'Prilagođena ambalaža', description: 'Potpuna kontrola brendiranja' },
-        caseStudies: { label: 'Studije slučaja', description: 'Uspješne priče partnera' },
+      solutions: {
+        title: 'Rješenja',
+        byEnvironment: { label: 'Po okruženju', description: 'Kompletna higijenska rješenja za svaki prostor' },
+        dispensing: { label: 'Sustavi doziranja', description: 'Dozatori upareni s pravim sadržajem' },
+        industries: { label: 'Industrije', description: 'Hoteli, bolnice, uredi, restorani i više' },
+        forHome: { label: 'Za dom i obitelj', description: 'Profesionalna kvaliteta za svakodnevni život' },
       },
     },
   },
   hero: {
-    tagline: 'Professional Hygiene Solutions',
-    title: 'Podižemo standarde profesionalne higijene',
-    subtitle: 'Od proizvodne izvrsnosti do pouzdanih linija proizvoda — ZOR isporučuje kvalitetne papirne proizvode za tvrtke diljem Europe.',
+    tagline: 'Higijenska rješenja za svakoga',
+    title: 'Podižemo standarde higijene — za posao i dom',
+    subtitle: 'Iz našeg proizvodnog pogona do vašeg poslovanja ili doma — ZOR isporučuje kvalitetne higijenske proizvode kojima vjeruju obitelji i tvrtke diljem Europe.',
     cta: 'Pregledajte proizvode',
     ctaSecondary: 'Kontaktirajte nas',
     formTitle: 'Recite nam što trebate',
     formName: 'Vaše ime',
-    formEmail: 'Poslovni email',
+    formEmail: 'Email adresa',
     formCompany: 'Tvrtka',
     formInterest: 'Zanima me...',
     formInterestOptions: {
       products: 'Nabava proizvoda',
-      privateLabel: 'Private Label',
+      solutions: 'Kompletna rješenja',
       partnership: 'Partnerstvo',
       other: 'Ostalo',
     },
@@ -88,12 +88,12 @@ export const hr = {
     countries: { value: '15+', label: 'Europskih tržišta' },
     products: { value: '30+', label: 'Varijanti proizvoda' },
     capacity: { value: '500+', label: 'Tona / mjesečno' },
-    clients: { value: '200+', label: 'Aktivnih partnera' },
+    clients: { value: '200+', label: 'Zadovoljnih kupaca' },
   },
   about: {
     sectionTag: 'Tko smo mi',
     title: 'Izgrađeni na proizvodnoj stručnosti, vođeni partnerstvom',
-    description: 'ZOR je hrvatska tvrtka koja djeluje na sjecištu proizvodnih mogućnosti i razumijevanja tržišta. Kroz ZOR Converting upravljamo vlastitim proizvodnim pogonom — što nam daje izravnu kontrolu nad kvalitetom, kapacitetom i inovacijama. Kroz ZOR Professional donosimo pažljivo odabran asortiman higijenskih proizvoda tvrtkama koje zahtijevaju dosljednost i pouzdanost.',
+    description: 'ZOR je hrvatska tvrtka koja djeluje na sjecištu proizvodnih mogućnosti i razumijevanja tržišta. Kroz ZOR Converting upravljamo vlastitim proizvodnim pogonom — što nam daje izravnu kontrolu nad kvalitetom, kapacitetom i inovacijama. Kroz ZOR Professional donosimo pažljivo odabran asortiman higijenskih proizvoda tvrtkama i kućanstvima koja zahtijevaju dosljednost i pouzdanost.',
     values: {
       quality: {
         title: 'Beskompromisna kvaliteta',
@@ -128,7 +128,7 @@ export const hr = {
         'Moderne linije za konvertiranje rolnih i složenih proizvoda',
         'Vlastiti laboratorij za kontrolu kvalitete i testiranje',
         'Fleksibilan raspored proizvodnje',
-        'Kapacitet za private label i prilagođene narudžbe',
+        'Kapacitet za prilagođene i velike narudžbe',
         'Održive proizvodne prakse',
         'Procesi usklađeni s ISO standardima',
       ],
@@ -169,6 +169,14 @@ export const hr = {
         title: 'Složeni proizvodi',
         description: 'Ručnici za ruke i salvete u više konfiguracija savijanja za optimalno doziranje.',
       },
+      dispensing: {
+        title: 'Sustavi doziranja',
+        description: 'Profesionalni dozatori za papir, sapun i dezinficijens — dizajnirani za pouzdanost i jednostavnost korištenja.',
+      },
+      soap: {
+        title: 'Sapuni i higijena',
+        description: 'Tekući sapuni, pjenasti sapuni i dezinficijensi za dopunu naših sustava doziranja.',
+      },
     },
     items: {
       toiletPaper: {
@@ -201,45 +209,88 @@ export const hr = {
         description: 'Klasični V-fold ručnici za ruke koji nude pouzdane performanse i izvrsnu vrijednost za okruženja s velikim volumenom.',
         features: ['Pouzdane performanse', 'Velika potrošnja', 'Kompaktno skladištenje', 'Izvrsna vrijednost'],
       },
+      rollDispensers: {
+        name: 'Dozatori za role',
+        description: 'Uskoro — profesionalni dozatori za toaletni papir i ručnike. Detalji nakon Intercleana 2026.',
+        features: ['Profesionalna kvaliteta', 'Više formata'],
+      },
+      towelDispensers: {
+        name: 'Dozatori za ručnike',
+        description: 'Uskoro — dozatori za Z-fold i V-fold papirnate ručnike. Detalji nakon Intercleana 2026.',
+        features: ['Univerzalni', 'Jednostavno održavanje'],
+      },
+      soapDispensers: {
+        name: 'Dozatori za sapun i dezinficijens',
+        description: 'Uskoro — zidni dozatori za tekući sapun, pjenasti sapun i dezinficijens za ruke. Detalji nakon Intercleana 2026.',
+        features: ['Zidna montaža', 'Sustav dopune'],
+      },
+      liquidSoap: {
+        name: 'Tekući sapun',
+        description: 'Uskoro — profesionalni tekući sapun za ruke za poslovnu i kućnu upotrebu. Detalji nakon Intercleana 2026.',
+        features: ['Nježna formula', 'Ekonomične dopune'],
+      },
+      foamSoap: {
+        name: 'Pjenasti sapun',
+        description: 'Uskoro — pjenasti sapun koji pruža premium iskustvo pranja ruku. Detalji nakon Intercleana 2026.',
+        features: ['Bogata pjena', 'Manja potrošnja vode'],
+      },
+      sanitizer: {
+        name: 'Dezinficijens za ruke',
+        description: 'Uskoro — dezinficijens za ruke na bazi alkohola za profesionalna okruženja. Detalji nakon Intercleana 2026.',
+        features: ['Brzo sušenje', 'Učinkovita formula'],
+      },
     },
     cta: 'Zatražite katalog proizvoda',
     pageTitle: 'Naši proizvodi',
     pageSubtitle: 'Kompletan asortiman profesionalnih papirnih proizvoda, proizvedenih s preciznošću u našem vlastitom pogonu i pouzdano isporučenih diljem Europe.',
   },
-  privateLabel: {
-    sectionTag: 'Private Label',
-    title: 'Vaš brand, naša stručnost',
-    subtitle: 'Iskoristite naše proizvodne mogućnosti za stvaranje vlastite brendirane linije profesionalnih higijenskih proizvoda. Potpuna prilagodba, od specifikacije proizvoda do dizajna ambalaže.',
+  solutions: {
+    sectionTag: 'Kompletna rješenja',
+    title: 'Pravo rješenje za svaki prostor',
+    subtitle: 'Profesionalni dozatori upareni s premium papirnim i sapunskim proizvodima — dizajnirani za hotele, bolnice, urede, restorane i vaš dom.',
+    environments: {
+      hotel: {
+        title: 'Hoteli i ugostiteljstvo',
+        description: 'Premium iskustvo gostiju s elegantnim dozatorima i mekanim, kvalitetnim papirnim proizvodima.',
+      },
+      healthcare: {
+        title: 'Zdravstvo',
+        description: 'Higijenski, pouzdani sustavi koji zadovoljavaju stroge kliničke standarde za bolnice i klinike.',
+      },
+      office: {
+        title: 'Uredi i radna mjesta',
+        description: 'Čisti, opremljeni sanitarni prostori koji odražavaju profesionalne standarde.',
+      },
+      restaurant: {
+        title: 'Restorani i ugostiteljstvo',
+        description: 'Praktična, higijenska rješenja za užurbane kuhinje i prostorije za goste.',
+      },
+    },
     benefits: {
-      custom: {
-        title: 'Prilagođene specifikacije',
-        description: 'Odaberite broj slojeva, veličinu lista, uzorak reljefa i kvalitetu papira. Proizvodimo prema vašim točnim specifikacijama.',
+      matched: {
+        title: 'Savršeno upareno',
+        description: 'Svaki dozator uparen s idealnim papirom ili sapunom — bez nagađanja, bez problema s kompatibilnošću.',
       },
-      branding: {
-        title: 'Potpuna kontrola brendiranja',
-        description: 'Prilagođeni dizajn ambalaže, vaš logo, vaše boje. Stvorite liniju proizvoda koja jača vaš identitet brenda.',
+      proven: {
+        title: 'Provjereno u industriji',
+        description: 'Potkrijepljeno proizvodnom stručnošću i povjerenjem tvrtki na 15+ europskih tržišta.',
       },
-      minimums: {
-        title: 'Fleksibilni minimumi',
-        description: 'Surađujemo s partnerima svih veličina. Bilo da trebate 10 paleta ili 100, nalazimo raspored proizvodnje koji odgovara.',
+      sustainable: {
+        title: 'Održiv izbor',
+        description: 'Ekološki osvješteni proizvodi i sustavi koji smanjuju otpad bez kompromisa u kvaliteti.',
       },
-      speed: {
-        title: 'Brza realizacija',
-        description: 'Od koncepta do isporuke u tjednima, ne mjesecima. Vlastita proizvodnja znači bez kašnjenja treće strane.',
+      support: {
+        title: 'Kontinuirana podrška',
+        description: 'Posvećeni tim koji vam pomaže odabrati, instalirati i održavati vaše higijenske sustave.',
       },
     },
-    process: {
-      title: 'Kako funkcionira',
-      steps: [
-        { title: 'Brief', description: 'Podijelite zahtjeve za proizvod, ciljano tržište i viziju brendiranja s našim timom.' },
-        { title: 'Razvoj', description: 'Izrađujemo uzorke proizvoda i probne otiske ambalaže za vašu potvrdu.' },
-        { title: 'Proizvodnja', description: 'Vaši proizvodi se proizvode pod strogom kontrolom kvalitete u našem pogonu.' },
-        { title: 'Isporuka', description: 'Gotovi proizvodi isporučuju se u vaše skladište, spremni za distribuciju.' },
-      ],
+    cta: 'Pronađite svoje rješenje',
+    pageTitle: 'Higijenska rješenja',
+    pageSubtitle: 'Kompletni higijenski sustavi koji kombiniraju dozatore s pravim sadržajem — dizajnirani za stvarna okruženja gdje kvaliteta je bitna.',
+    forHome: {
+      title: 'Profesionalna kvaliteta kod kuće',
+      description: 'Zašto se zadovoljiti s manje? Ista kvaliteta kojoj vjeruju hoteli i bolnice sada je dostupna za vaš dom. Mekani, upojni papirni proizvodi i nježni sapuni koje će vaša obitelj voljeti.',
     },
-    cta: 'Pokrenite svoj Private Label projekt',
-    pageTitle: 'Private Label rješenja',
-    pageSubtitle: 'Izgradite vlastitu brendiranu liniju proizvoda uz potporu naše proizvodne stručnosti i pogona.',
   },
   whyZor: {
     sectionTag: 'Zašto ZOR',
@@ -266,7 +317,7 @@ export const hr = {
   contact: {
     sectionTag: 'Kontaktirajte nas',
     title: 'Izgradimo nešto zajedno',
-    subtitle: 'Bilo da tražite pouzdanog dobavljača, istražujete private label opcije ili jednostavno želite saznati više — tu smo za razgovor.',
+    subtitle: 'Trebate li proizvode za posao, dom ili prilagođeni projekt — tu smo da pomognemo.',
     form: {
       name: 'Ime i prezime',
       email: 'Email adresa',
@@ -279,7 +330,7 @@ export const hr = {
       subjects: {
         general: 'Opći upit',
         products: 'Informacije o proizvodima',
-        privateLabel: 'Private Label',
+        solutions: 'Upit o rješenjima',
         partnership: 'Mogućnost partnerstva',
         other: 'Ostalo',
       },
@@ -295,7 +346,7 @@ export const hr = {
     pageSubtitle: 'Spremni razgovarati o vašim potrebama profesionalne higijene? Javite se i započnimo razgovor.',
   },
   footer: {
-    description: 'Rješenja profesionalne higijene za tvrtke diljem Europe. Kvalitetni papirni proizvodi iz našeg proizvodnog pogona do vaših vrata.',
+    description: 'Higijenska rješenja za tvrtke i obitelji diljem Europe. Kvalitetni proizvodi iz našeg pogona do vaših vrata.',
     quickLinks: 'Brzi linkovi',
     products: 'Proizvodi',
     legal: 'Pravne informacije',
@@ -307,7 +358,7 @@ export const hr = {
   },
   cta: {
     title: 'Spremni podići standarde higijene?',
-    subtitle: 'Pridružite se 200+ tvrtki diljem Europe koje vjeruju ZOR-u za svoje potrebe profesionalne higijene.',
+    subtitle: 'Pridružite se tvrtkama i obiteljima diljem Europe koje vjeruju ZOR-u za kvalitetne higijenske proizvode.',
     button: 'Zatražite ponudu',
   },
 }

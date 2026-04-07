@@ -9,7 +9,7 @@ export function JsonLd() {
     alternateName: ['ZOR Professional', 'ZOR Converting'],
     url: 'https://zorpro.hr',
     logo: 'https://zorpro.hr/images/logo.png',
-    description: 'Professional hygiene solutions for businesses across Europe. Quality paper products manufactured in our own converting facility.',
+    description: 'Hygiene solutions for businesses and families across Europe. Quality paper products, dispensers, and soaps from our own converting facility.',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Zagreb',

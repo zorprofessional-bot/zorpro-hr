@@ -11,7 +11,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 const NAV_ITEMS = [
   { key: 'about' as const, href: '/about', hasMenu: true },
   { key: 'products' as const, href: '/products', hasMenu: true },
-  { key: 'privateLabel' as const, href: '/private-label', hasMenu: true },
+  { key: 'solutions' as const, href: '/solutions', hasMenu: true },
   { key: 'contact' as const, href: '/contact', hasMenu: false },
 ]
 
@@ -63,10 +63,11 @@ export function Header() {
       { label: t('nav.megaMenu.products.folded.title'), href: '/products#folded' },
       { label: t('nav.megaMenu.products.dispensing.title'), href: '/products#dispensing' },
     ],
-    privateLabel: [
-      { label: t('nav.megaMenu.privateLabel.overview.label'), href: '/private-label#overview' },
-      { label: t('nav.megaMenu.privateLabel.process.label'), href: '/private-label#process' },
-      { label: t('nav.megaMenu.privateLabel.packaging.label'), href: '/private-label#packaging' },
+    solutions: [
+      { label: t('nav.megaMenu.solutions.byEnvironment.label'), href: '/solutions#environments' },
+      { label: t('nav.megaMenu.solutions.dispensing.label'), href: '/solutions#dispensing' },
+      { label: t('nav.megaMenu.solutions.industries.label'), href: '/solutions#industries' },
+      { label: t('nav.megaMenu.solutions.forHome.label'), href: '/solutions#home' },
     ],
   }
 

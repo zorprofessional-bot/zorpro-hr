@@ -36,8 +36,8 @@ export default function AboutPage() {
             <AnimatedSection delay={0.2}>
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden">
                 <Image
-                  src="/images/hero.png"
-                  alt="ZOR Manufacturing"
+                  src="/images/warehouse-zorpro.png"
+                  alt="ZOR Professional warehouse"
                   fill
                   className="object-cover"
                 />
@@ -92,10 +92,10 @@ export default function AboutPage() {
             <AnimatedSection>
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden border border-white/10">
                 <Image
-                  src="/images/mini jumbo.png"
+                  src="/images/factory-line.png"
                   alt="ZOR Converting Facility"
                   fill
-                  className="object-contain p-8"
+                  className="object-cover"
                 />
               </div>
             </AnimatedSection>

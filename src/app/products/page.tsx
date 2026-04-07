@@ -24,6 +24,22 @@ const productData = [
       { key: 'vFold', image: '/images/v fold.png' },
     ],
   },
+  {
+    category: 'dispensing',
+    products: [
+      { key: 'rollDispensers', image: '/images/washroom-modern.png', comingSoon: true },
+      { key: 'towelDispensers', image: '/images/washroom-modern.png', comingSoon: true },
+      { key: 'soapDispensers', image: '/images/washroom-modern.png', comingSoon: true },
+    ],
+  },
+  {
+    category: 'soap',
+    products: [
+      { key: 'liquidSoap', image: '/images/washroom-modern.png', comingSoon: true },
+      { key: 'foamSoap', image: '/images/washroom-modern.png', comingSoon: true },
+      { key: 'sanitizer', image: '/images/washroom-modern.png', comingSoon: true },
+    ],
+  },
 ]
 
 export default function ProductsPage() {
@@ -60,11 +76,16 @@ export default function ProductsPage() {
                   <div className="group">
                     {/* Dark image area */}
                     <div className="relative aspect-[4/3] rounded-t-xl overflow-hidden bg-primary-950">
+                      {'comingSoon' in product && product.comingSoon && (
+                        <div className="absolute top-3 right-3 z-10 px-3 py-1 bg-white/90 text-primary text-xs font-semibold rounded-md uppercase tracking-wider">
+                          Coming Soon
+                        </div>
+                      )}
                       <Image
                         src={product.image}
                         alt={t(`products.items.${product.key}.name`)}
                         fill
-                        className="object-contain p-8 group-hover:scale-105 transition-transform duration-500"
+                        className={`object-contain p-8 group-hover:scale-105 transition-transform duration-500 ${'comingSoon' in product && product.comingSoon ? 'opacity-40' : ''}`}
                       />
                     </div>
                     {/* Info area */}

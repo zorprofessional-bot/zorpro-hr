@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { useLanguage } from '@/providers/LanguageProvider'
 import { AnimatedSection } from '@/components/ui/AnimatedSection'
@@ -8,8 +9,16 @@ export function CtaBanner() {
   const { t } = useLanguage()
 
   return (
-    <section className="py-20 lg:py-28 bg-primary-950">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <section className="relative py-20 lg:py-28 bg-primary-950 overflow-hidden">
+      <div className="absolute inset-0">
+        <Image
+          src="/images/machinery-detail.jpg"
+          alt=""
+          fill
+          className="object-cover opacity-20"
+        />
+      </div>
+      <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <AnimatedSection className="lg:col-span-8">
             <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-white tracking-tight">

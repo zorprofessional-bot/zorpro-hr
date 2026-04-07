@@ -45,7 +45,7 @@ export function InquiryForm({ variant, className = '' }: InquiryFormProps) {
           <select name="interest" required className={`${inputBase} text-gray-400`} defaultValue="">
             <option value="" disabled>{t('hero.formInterest')}</option>
             <option value="products">{t('hero.formInterestOptions.products')}</option>
-            <option value="privateLabel">{t('hero.formInterestOptions.privateLabel')}</option>
+            <option value="solutions">{t('hero.formInterestOptions.solutions')}</option>
             <option value="partnership">{t('hero.formInterestOptions.partnership')}</option>
             <option value="other">{t('hero.formInterestOptions.other')}</option>
           </select>
@@ -70,7 +70,7 @@ export function InquiryForm({ variant, className = '' }: InquiryFormProps) {
   }
 
   // Standalone variant (contact page)
-  const subjects = ['general', 'products', 'privateLabel', 'partnership', 'other'] as const
+  const subjects = ['general', 'products', 'solutions', 'partnership', 'other'] as const
 
   return (
     <form onSubmit={handleSubmit} className={`space-y-6 ${className}`}>

@@ -43,7 +43,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li><Link href="/about" className="text-sm text-white/60 hover:text-white transition-colors">{t('nav.about')}</Link></li>
               <li><Link href="/products" className="text-sm text-white/60 hover:text-white transition-colors">{t('nav.products')}</Link></li>
-              <li><Link href="/private-label" className="text-sm text-white/60 hover:text-white transition-colors">{t('nav.privateLabel')}</Link></li>
+              <li><Link href="/solutions" className="text-sm text-white/60 hover:text-white transition-colors">{t('nav.solutions')}</Link></li>
               <li><Link href="/contact" className="text-sm text-white/60 hover:text-white transition-colors">{t('nav.contact')}</Link></li>
             </ul>
           </div>
