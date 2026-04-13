@@ -88,8 +88,8 @@ export function Header() {
               <Image
                 src="/images/logo.png"
                 alt="ZOR Professional Hygiene"
-                width={501}
-                height={115}
+                width={1397}
+                height={389}
                 className={`h-8 sm:h-9 w-auto transition-all duration-300 ${scrolled ? 'logo-primary' : ''}`}
                 priority
               />

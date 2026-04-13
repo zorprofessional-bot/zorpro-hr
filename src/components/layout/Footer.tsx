@@ -18,8 +18,8 @@ export function Footer() {
               <Image
                 src="/images/logo.png"
                 alt="ZOR Professional Hygiene"
-                width={501}
-                height={115}
+                width={1397}
+                height={389}
                 className="h-8 w-auto"
               />
             </Link>
