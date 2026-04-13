@@ -20,7 +20,7 @@ export function Footer() {
                 alt="ZOR"
                 width={40}
                 height={40}
-                className="h-9 w-auto brightness-200"
+                className="h-9 w-auto"
               />
               <div>
                 <span className="text-lg font-bold tracking-tight">ZOR</span>

@@ -112,6 +112,7 @@ function ProductsPanel() {
             src="/images/toaletni papir.png"
             alt="ZOR Products"
             fill
+            sizes="250px"
             className="object-contain object-right-bottom opacity-20 p-4"
           />
           <div className="relative">

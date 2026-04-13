@@ -63,6 +63,7 @@ export function SolutionsPreview() {
                 src="/images/washroom-modern.png"
                 alt="Modern washroom with dispensers"
                 fill
+                sizes="(max-width: 1024px) 100vw, 42vw"
                 className="object-cover"
               />
             </div>

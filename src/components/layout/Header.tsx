@@ -90,7 +90,7 @@ export function Header() {
                 alt="ZOR"
                 width={48}
                 height={48}
-                className="h-10 w-auto"
+                className={`h-10 w-auto transition-all duration-300 ${scrolled ? 'invert' : ''}`}
                 priority
               />
               <div className="hidden sm:block">

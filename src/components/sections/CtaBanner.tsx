@@ -15,6 +15,7 @@ export function CtaBanner() {
           src="/images/machinery-detail.jpg"
           alt=""
           fill
+          sizes="100vw"
           className="object-cover opacity-20"
         />
       </div>

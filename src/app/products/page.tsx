@@ -85,6 +85,7 @@ export default function ProductsPage() {
                         src={product.image}
                         alt={t(`products.items.${product.key}.name`)}
                         fill
+                        sizes="(max-width: 768px) 100vw, 33vw"
                         className={`object-contain p-8 group-hover:scale-105 transition-transform duration-500 ${'comingSoon' in product && product.comingSoon ? 'opacity-40' : ''}`}
                       />
                     </div>

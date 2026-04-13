@@ -16,6 +16,7 @@ export function Hero() {
           src="/images/factory-line.png"
           alt=""
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />

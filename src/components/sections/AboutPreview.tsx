@@ -38,6 +38,7 @@ export function AboutPreview() {
                 src="/images/warehouse-zorpro.png"
                 alt="ZOR Professional warehouse"
                 fill
+                sizes="(max-width: 1024px) 100vw, 58vw"
                 className="object-cover"
               />
             </div>

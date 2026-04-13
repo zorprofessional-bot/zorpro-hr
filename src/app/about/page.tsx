@@ -39,6 +39,7 @@ export default function AboutPage() {
                   src="/images/warehouse-zorpro.png"
                   alt="ZOR Professional warehouse"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>
@@ -95,6 +96,7 @@ export default function AboutPage() {
                   src="/images/factory-line.png"
                   alt="ZOR Converting Facility"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>

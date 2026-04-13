@@ -56,6 +56,7 @@ export default function SolutionsPage() {
                     src={env.image}
                     alt={t(`solutions.environments.${env.key}.title`)}
                     fill
+                    sizes="(max-width: 640px) 100vw, 50vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-950/80 via-primary-950/20 to-transparent" />
@@ -84,6 +85,7 @@ export default function SolutionsPage() {
                   src="/images/washroom-modern.png"
                   alt="Dispensing systems"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>
@@ -168,6 +170,7 @@ export default function SolutionsPage() {
                   src="/images/hotel-bathroom.png"
                   alt="Professional quality at home"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>
