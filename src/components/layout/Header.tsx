@@ -84,23 +84,15 @@ export function Header() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className={`flex items-center justify-between transition-all duration-300 ${scrolled ? 'h-16' : 'h-20'}`}>
             {/* Logo */}
-            <Link href="/" className="relative z-10 flex items-center gap-3">
+            <Link href="/" className="relative z-10">
               <Image
                 src="/images/logo.png"
-                alt="ZOR"
-                width={48}
-                height={48}
-                className={`h-10 w-auto transition-all duration-300 ${scrolled ? 'invert' : ''}`}
+                alt="ZOR Professional Hygiene"
+                width={501}
+                height={115}
+                className={`h-8 sm:h-9 w-auto transition-all duration-300 ${scrolled ? 'invert' : ''}`}
                 priority
               />
-              <div className="hidden sm:block">
-                <span className={`text-lg font-bold tracking-tight transition-colors ${scrolled ? 'text-primary' : 'text-white'}`}>
-                  ZOR
-                </span>
-                <span className={`block text-[10px] font-medium uppercase tracking-[0.2em] transition-colors ${scrolled ? 'text-primary-light' : 'text-white/70'}`}>
-                  Professional Hygiene
-                </span>
-              </div>
             </Link>
 
             {/* Desktop Nav */}

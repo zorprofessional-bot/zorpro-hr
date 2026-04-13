@@ -14,20 +14,14 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8">
           {/* Brand */}
           <div className="lg:col-span-4">
-            <Link href="/" className="flex items-center gap-3 mb-6">
+            <Link href="/" className="block mb-6">
               <Image
                 src="/images/logo.png"
-                alt="ZOR"
-                width={40}
-                height={40}
-                className="h-9 w-auto"
+                alt="ZOR Professional Hygiene"
+                width={501}
+                height={115}
+                className="h-8 w-auto"
               />
-              <div>
-                <span className="text-lg font-bold tracking-tight">ZOR</span>
-                <span className="block text-[10px] font-medium uppercase tracking-[0.2em] text-white/50">
-                  {t('footer.tagline')}
-                </span>
-              </div>
             </Link>
             <p className="text-sm text-white/50 leading-relaxed max-w-sm">
               {t('footer.description')}
